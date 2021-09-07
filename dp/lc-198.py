@@ -1,8 +1,8 @@
-'''
+"""
 经典DP 类似多状态的斐波那契数列
 f(n, True) = f(n-1, False) + nums[n]
 f(n, False) = max(f(n-1, False), f(n-1, True))
-'''
+"""
 
 
 class Solution:
